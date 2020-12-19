@@ -47,7 +47,7 @@ class Login extends React.Component {
 
           localStorage.setItem("session_state", JSON.stringify(storageData));
           this.props.userLogin(storageData);
-          window.location.reload();
+          window.location = '/admin/user/list'
         } else {
           this.setState({
             username: "",
