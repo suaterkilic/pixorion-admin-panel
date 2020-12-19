@@ -74,7 +74,7 @@ class Login extends React.Component {
                 <div className="lock-image col-12 col-sm-5" />
                 <div className="login-form col-12 col-sm-7">
                   <div className="form-group mb-3">
-                    <label htmlFor="emailaddress">Kullanıcı Adı</label>
+                    <label htmlFor="emailaddress">Kullanıcı Adııııııı</label>
                     <input
                       className="form-control"
                       type="text"
