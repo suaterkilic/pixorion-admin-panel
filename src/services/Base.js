@@ -13,7 +13,7 @@ export default {
 
       let API_URL = "";
 
-      API_URL = "http://192.168.1.36/" + params.url;
+      API_URL = "https://pixorion.tattooandlife.com/" + params.url;
       
       if(params.url === 'admin/login'){
         return await axios.post(API_URL, params.data, headers);
